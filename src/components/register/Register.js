@@ -19,6 +19,7 @@ const Register = () => {
         localStorage.setItem("id", id);
         localStorage.setItem("password", password);
         console.log("account created successfully");
+        showToastMessage()
         setId("");
         setPassword("");
         navigate("/login");
@@ -46,7 +47,7 @@ const Register = () => {
                 required={true}
                 onChange={(e) => setPassword(e.target.value)}
             />
-            <button id="submit-button" onClick={showToastMessage}>
+            <button id="submit-button">
                 SUBMIT
             </button>
         </form>
