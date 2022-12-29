@@ -1,0 +1,43 @@
+.inputID {
+    display: block;
+    padding: 1rem;
+    font-size: 20px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    background-color: #003e42;
+    max-width: 270px;
+    color: #bacdca;
+}
+
+.form-container {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #013437;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+
+label {
+    color: #bacdca;
+}
+
+#submit-button {
+    background-color: #ffe500;
+    color: black;
+    width: 200px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+}

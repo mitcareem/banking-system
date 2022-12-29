@@ -1,0 +1,11 @@
+.ant-tabs-nav-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ant-tabs-tab-btn {
+  font-size: 20px;
+  font-weight: bold;
+  color: gray;
+}
